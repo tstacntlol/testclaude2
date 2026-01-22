@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vinc vzw - Aangepaste vrijetijdsbesteding voor personen met of zonder beperking">
-    <title>Vinc vzw - Waar vrije tijd verbindt!</title>
+    <meta name="description" content="Vinc asbl - Loisirs adaptés pour personnes avec ou sans handicap">
+    <title>Vinc asbl - Où le temps libre crée des liens !</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Netlify Identity Widget for CMS authentication -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -23,18 +23,18 @@
                     <h1>Vinc vzw</h1>
                 </div>
                 <ul class="nav-menu" role="menubar">
-                    <li role="none"><a href="#programma" role="menuitem">Programma</a></li>
-                    <li role="none"><a href="#traject" role="menuitem">Vrijetijdstrajectbegeleiding</a></li>
-                    <li role="none"><a href="#over-ons" role="menuitem">Over Ons</a></li>
+                    <li role="none"><a href="#programma" role="menuitem">Programme</a></li>
+                    <li role="none"><a href="#traject" role="menuitem">Accompagnement de parcours de loisirs</a></li>
+                    <li role="none"><a href="#over-ons" role="menuitem">À propos</a></li>
                     <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero">
             <div class="container">
-                <h2>Waar vrije tijd verbindt!</h2>
-                <p>Aangepaste vrijetijdsbesteding voor personen met of zonder beperking</p>
-                <a href="#contact" class="cta-button">Word lid</a>
+                <h2>Où le temps libre crée des liens !</h2>
+                <p>Loisirs adaptés pour personnes avec ou sans handicap</p>
+                <a href="#contact" class="cta-button">Devenez membre</a>
             </div>
         </div>
     </header>
@@ -43,17 +43,17 @@
         <!-- Programma Section -->
         <section id="programma" class="section pdf-section">
             <div class="container">
-                <h2>Programma</h2>
+                <h2>Programme</h2>
                 <div class="pdf-viewer-container" id="programma-viewer">
                     <div class="pdf-loading">
-                        <p>PDF wordt geladen...</p>
+                        <p>Chargement du PDF...</p>
                     </div>
                     <div class="pdf-controls" style="display: none;">
-                        <button class="pdf-nav-btn" id="programma-prev" aria-label="Vorige pagina">← Vorige</button>
+                        <button class="pdf-nav-btn" id="programma-prev" aria-label="Page précédente">← Précédent</button>
                         <span class="pdf-page-info">
-                            Pagina <span id="programma-page-num">1</span> van <span id="programma-page-count">1</span>
+                            Page <span id="programma-page-num">1</span> sur <span id="programma-page-count">1</span>
                         </span>
-                        <button class="pdf-nav-btn" id="programma-next" aria-label="Volgende pagina">Volgende →</button>
+                        <button class="pdf-nav-btn" id="programma-next" aria-label="Page suivante">Suivant →</button>
                     </div>
                     <canvas id="programma-canvas" class="pdf-canvas"></canvas>
                 </div>
@@ -63,17 +63,17 @@
         <!-- Vrijetijdstrajectbegeleiding Section -->
         <section id="traject" class="section pdf-section">
             <div class="container">
-                <h2>Vrijetijdstrajectbegeleiding</h2>
+                <h2>Accompagnement de parcours de loisirs</h2>
                 <div class="pdf-viewer-container" id="traject-viewer">
                     <div class="pdf-loading">
-                        <p>PDF wordt geladen...</p>
+                        <p>Chargement du PDF...</p>
                     </div>
                     <div class="pdf-controls" style="display: none;">
-                        <button class="pdf-nav-btn" id="traject-prev" aria-label="Vorige pagina">← Vorige</button>
+                        <button class="pdf-nav-btn" id="traject-prev" aria-label="Page précédente">← Précédent</button>
                         <span class="pdf-page-info">
-                            Pagina <span id="traject-page-num">1</span> van <span id="traject-page-count">1</span>
+                            Page <span id="traject-page-num">1</span> sur <span id="traject-page-count">1</span>
                         </span>
-                        <button class="pdf-nav-btn" id="traject-next" aria-label="Volgende pagina">Volgende →</button>
+                        <button class="pdf-nav-btn" id="traject-next" aria-label="Page suivante">Suivant →</button>
                     </div>
                     <canvas id="traject-canvas" class="pdf-canvas"></canvas>
                 </div>
@@ -83,17 +83,17 @@
         <!-- Over Ons Section -->
         <section id="over-ons" class="section pdf-section">
             <div class="container">
-                <h2>Over Ons</h2>
+                <h2>À propos</h2>
                 <div class="pdf-viewer-container" id="over-ons-viewer">
                     <div class="pdf-loading">
-                        <p>PDF wordt geladen...</p>
+                        <p>Chargement du PDF...</p>
                     </div>
                     <div class="pdf-controls" style="display: none;">
-                        <button class="pdf-nav-btn" id="over-ons-prev" aria-label="Vorige pagina">← Vorige</button>
+                        <button class="pdf-nav-btn" id="over-ons-prev" aria-label="Page précédente">← Précédent</button>
                         <span class="pdf-page-info">
-                            Pagina <span id="over-ons-page-num">1</span> van <span id="over-ons-page-count">1</span>
+                            Page <span id="over-ons-page-num">1</span> sur <span id="over-ons-page-count">1</span>
                         </span>
-                        <button class="pdf-nav-btn" id="over-ons-next" aria-label="Volgende pagina">Volgende →</button>
+                        <button class="pdf-nav-btn" id="over-ons-next" aria-label="Page suivante">Suivant →</button>
                     </div>
                     <canvas id="over-ons-canvas" class="pdf-canvas"></canvas>
                 </div>
@@ -106,45 +106,45 @@
                 <h2>Contact</h2>
                 <div class="contact-content-centered">
                     <div class="contact-info-centered">
-                        <h3>Neem contact met ons op</h3>
-                        <p>Heeft u vragen of wilt u meer informatie? Neem gerust contact met ons op!</p>
+                        <h3>Contactez-nous</h3>
+                        <p>Vous avez des questions ou souhaitez plus d'informations ? N'hésitez pas à nous contacter !</p>
 
                         <div class="info-item">
-                            <strong>📧 Email:</strong>
+                            <strong>📧 Email :</strong>
                             <a href="mailto:info@vincvzw.be">info@vincvzw.be</a>
                         </div>
 
                         <div class="info-item">
-                            <strong>📞 Telefoon:</strong>
+                            <strong>📞 Téléphone :</strong>
                             <a href="tel:+3225461594">02 546 15 94</a>
                         </div>
 
                         <div class="info-item">
-                            <strong>📍 Adres:</strong>
+                            <strong>📍 Adresse :</strong>
                             <p id="contact-address">
-                                Vinc VZW<br>
-                                Mussenstraat 17-19<br>
-                                1000 Brussel<br>
-                                België
+                                Vinc ASBL<br>
+                                Rue des Moineaux 17-19<br>
+                                1000 Bruxelles<br>
+                                Belgique
                             </p>
                         </div>
 
                         <div class="info-item">
-                            <strong>🕐 Openingsuren:</strong>
+                            <strong>🕐 Heures d'ouverture :</strong>
                             <p id="contact-hours">
-                                Maandag – Donderdag: 8.15 tot 16.30<br>
-                                Vrijdag: 8.15 tot 15.00<br>
-                                Weekend: gesloten, tenzij er een geplande activiteit is
+                                Lundi – Jeudi : 8h15 à 16h30<br>
+                                Vendredi : 8h15 à 15h00<br>
+                                Week-end : fermé, sauf activité planifiée
                             </p>
                         </div>
 
                         <div class="social-links-contact">
-                            <h3>Volg ons</h3>
+                            <h3>Suivez-nous</h3>
                             <div class="social-buttons">
-                                <a href="https://www.facebook.com/VINCvzw" target="_blank" rel="noopener" class="social-btn facebook" aria-label="Bezoek ons op Facebook">
+                                <a href="https://www.facebook.com/VINCvzw" target="_blank" rel="noopener" class="social-btn facebook" aria-label="Visitez-nous sur Facebook">
                                     <span>Facebook</span>
                                 </a>
-                                <a href="https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Volg ons op Instagram">
+                                <a href="https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx" target="_blank" rel="noopener" class="social-btn instagram" aria-label="Suivez-nous sur Instagram">
                                     <span>Instagram</span>
                                 </a>
                             </div>
@@ -160,40 +160,40 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Vinc vzw</h3>
-                    <p>Waar vrije tijd verbindt!</p>
-                    <p>Erkend door het VAPH als vrijetijdszorgorganisatie</p>
+                    <h3>Vinc asbl</h3>
+                    <p>Où le temps libre crée des liens !</p>
+                    <p>Reconnue par le VAPH comme organisation de soins de loisirs</p>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Locatie</h3>
+                    <h3>Localisation</h3>
                     <p>
-                        Vinc VZW<br>
-                        Mussenstraat 17-19<br>
-                        1000 Brussel<br>
-                        België
+                        Vinc ASBL<br>
+                        Rue des Moineaux 17-19<br>
+                        1000 Bruxelles<br>
+                        Belgique
                     </p>
                 </div>
 
                 <div class="footer-section">
                     <h3>Contact</h3>
                     <p>
-                        Email: <a href="mailto:info@vincvzw.be">info@vincvzw.be</a><br>
-                        Tel: <a href="tel:+3225461594">02 546 15 94</a>
+                        Email : <a href="mailto:info@vincvzw.be">info@vincvzw.be</a><br>
+                        Tél. : <a href="tel:+3225461594">02 546 15 94</a>
                     </p>
                 </div>
 
                 <div class="footer-section">
-                    <h3>Volg Ons</h3>
+                    <h3>Suivez-nous</h3>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/VINCvzw" target="_blank" rel="noopener" aria-label="VINC vzw op Facebook">Facebook</a>
-                        <a href="https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx" target="_blank" rel="noopener" aria-label="VINC vzw op Instagram">Instagram</a>
+                        <a href="https://www.facebook.com/VINCvzw" target="_blank" rel="noopener" aria-label="VINC asbl sur Facebook">Facebook</a>
+                        <a href="https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx" target="_blank" rel="noopener" aria-label="VINC asbl sur Instagram">Instagram</a>
                     </div>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; 2026 Vinc vzw. Alle rechten voorbehouden.</p>
+                <p>&copy; 2026 Vinc asbl. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
@@ -202,13 +202,13 @@
     <div id="pdf-modal" class="pdf-modal" style="display: none;">
         <div class="pdf-modal-overlay"></div>
         <div class="pdf-modal-content">
-            <button class="pdf-modal-close" aria-label="Sluit PDF weergave">&times;</button>
+            <button class="pdf-modal-close" aria-label="Fermer l'affichage PDF">&times;</button>
             <div class="pdf-modal-controls">
-                <button class="pdf-nav-btn pdf-nav-btn-small" id="modal-prev" aria-label="Vorige pagina">← Vorige</button>
+                <button class="pdf-nav-btn pdf-nav-btn-small" id="modal-prev" aria-label="Page précédente">← Précédent</button>
                 <span class="pdf-page-info pdf-page-info-small">
-                    Pagina <span id="modal-page-num">1</span> van <span id="modal-page-count">1</span>
+                    Page <span id="modal-page-num">1</span> sur <span id="modal-page-count">1</span>
                 </span>
-                <button class="pdf-nav-btn pdf-nav-btn-small" id="modal-next" aria-label="Volgende pagina">Volgende →</button>
+                <button class="pdf-nav-btn pdf-nav-btn-small" id="modal-next" aria-label="Page suivante">Suivant →</button>
             </div>
             <div class="pdf-modal-canvas-container">
                 <canvas id="modal-canvas" class="pdf-canvas-modal"></canvas>

@@ -1,17 +1,17 @@
 {
-  "street": "Mussenstraat 17-19",
-  "city": "Brussel",
+  "street": "Rue des Moineaux 17-19",
+  "city": "Bruxelles",
   "social": {
     "facebook": "https://www.facebook.com/VINCvzw",
     "instagram": "https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx"
   },
   "phone": "02 546 15 94",
   "hours": {
-    "weekdays": "<strong>Maandag – Donderdag:</strong> Van 8.15 tot 16.30<br><strong>Vrijdag:</strong> Van 8.15 tot 15.00",
-    "weekend": "<strong>Weekend:</strong> Gesloten (tenzij er een geplande activiteit is)"
+    "weekdays": "<strong>Lundi – Jeudi :</strong> De 8h15 à 16h30<br><strong>Vendredi :</strong> De 8h15 à 15h00",
+    "weekend": "<strong>Week-end :</strong> Fermé (sauf activité planifiée)"
   },
-  "country": "België",
+  "country": "Belgique",
   "postalCode": "1000",
   "email": "info@vincvzw.be",
-  "organizationName": "Vinc VZW"
+  "organizationName": "Vinc ASBL"
 }

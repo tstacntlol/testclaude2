@@ -31,7 +31,7 @@ class PDFViewer {
 
     async loadPDF(url) {
         if (!url) {
-            this.showMessage('Geen PDF beschikbaar');
+            this.showMessage('Aucun PDF disponible');
             return;
         }
 
@@ -50,7 +50,7 @@ class PDFViewer {
             this.renderPage(this.pageNum);
         } catch (error) {
             console.error(`Error loading PDF for ${this.sectionId}:`, error);
-            this.showMessage('Fout bij het laden van PDF');
+            this.showMessage('Erreur lors du chargement du PDF');
         }
     }
 
@@ -334,7 +334,7 @@ async function initializePDFs() {
                     });
                 }
             } else {
-                viewers[section].showMessage('Nog geen PDF geüpload');
+                viewers[section].showMessage('Aucun PDF téléchargé');
             }
         } catch (error) {
             console.error(`Error loading config for ${section}:`, error);
