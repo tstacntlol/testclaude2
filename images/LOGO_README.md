@@ -1,26 +1,26 @@
 # Logo Installation Instructions
 
-## Adding Your Vinc vzw Logo
+## Adding Your Linc vzw Logo
 
-To add the Vinc vzw logo to the navigation bar:
+To add the Linc vzw logo to the navigation bar:
 
 1. **Prepare your logo image:**
-   - Save your logo as `vinc-logo.png` (or `.jpg`, `.svg`)
+   - Save your logo as `linc-logo.png` (or `.jpg`, `.svg`)
    - Recommended: Use PNG format with transparent background
    - Recommended size: Height of 120-150px (width will scale automatically)
 
 2. **Upload the logo:**
    - Place the logo file in the `/images/` folder
-   - Name it exactly: `vinc-logo.png`
+   - Name it exactly: `linc-logo.png`
 
 3. **If using a different filename or format:**
    - Edit `index.html`
-   - Find the line: `<img src="images/vinc-logo.png" alt="Vinc vzw logo" />`
-   - Change `vinc-logo.png` to your filename
+   - Find the line: `<img src="images/linc-logo.png" alt="Linc vzw logo" />`
+   - Change `linc-logo.png` to your filename
 
 ## Current Logo Location
 
-The logo appears in the navigation bar between "Vinc vzw" text and the navigation menu.
+The logo appears in the navigation bar between "Linc vzw" text and the navigation menu.
 
 The logo will:
 - Scale to 60px height on desktop

@@ -1,4 +1,4 @@
-# Vinc vzw Website - Handleiding voor PDF Uploads
+# Linc vzw Website - Handleiding voor PDF Uploads
 
 ## Inhoudsopgave
 1. [Inloggen op het Admin Paneel](#inloggen)
@@ -32,7 +32,7 @@ Klik op "Forgot password?" en volg de instructies in de e-mail die u ontvangt.
 
 ### Overzicht
 U kunt PDF's uploaden voor drie secties van uw website:
-- **Programma** - Het programma van Vinc vzw
+- **Programma** - Het programma van Linc vzw
 - **Vrijetijdstrajectbegeleiding** - Informatie over trajectbegeleiding
 - **Over Ons** - Algemene informatie over de organisatie
 
@@ -214,7 +214,7 @@ De website gebruikt een **Editorial Workflow** (redactionele workflow). Dit bete
 2. **Controleer altijd** voordat u publiceert
 3. **Test de website** na publicatie
 4. **Bewaar backups** van uw PDF's op uw computer
-5. **Gebruik duidelijke bestandsnamen** (bijv: "Vinc_Programma_2025.pdf")
+5. **Gebruik duidelijke bestandsnamen** (bijv: "Linc_Programma_2025.pdf")
 
 ### ✅ Veiligheid Tips
 1. **Log altijd uit** na het maken van wijzigingen
@@ -233,4 +233,4 @@ Als u problemen ondervindt of vragen heeft die niet in deze handleiding staan, n
 
 ---
 
-© 2025 Vinc vzw - Website Handleiding
+© 2025 Linc vzw - Website Handleiding
