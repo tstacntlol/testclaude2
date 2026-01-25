@@ -46,7 +46,7 @@ collections:
         label: "Contact Informatie"
         file: "content/settings/contact.json"
         fields:
-          - {label: "Organisatie Naam", name: "organizationName", widget: "string", default: "Linc ASBL"}
+          - {label: "Organisatie Naam", name: "organizationName", widget: "string", default: "L!NC ASBL"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "Telefoon", name: "phone", widget: "string"}
           - {label: "Adres - Straat", name: "street", widget: "string"}

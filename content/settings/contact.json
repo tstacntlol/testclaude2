@@ -1,17 +1,17 @@
 {
-  "street": "Rue des Moineaux 17-19",
+  "street": "Rue du Midi 111",
   "city": "Bruxelles",
   "social": {
     "facebook": "https://www.facebook.com/VINCvzw",
     "instagram": "https://www.instagram.com/vinc.vzw?igsh=cjNtc3I4NmE5d2xx"
   },
-  "phone": "02 546 15 94",
+  "phone": "02 546 14 42 - 02 546 15 44",
   "hours": {
-    "weekdays": "<strong>Lundi – Jeudi :</strong> De 8h15 à 16h30<br><strong>Vendredi :</strong> De 8h15 à 15h00",
+    "weekdays": "<strong>Lundi au jeudi :</strong> De 8h15 à 12h00 & de 12h45 à 16h30<br><strong>Vendredi :</strong> De 8h15 à 12h00 & de 12h45 à 15h00",
     "weekend": "<strong>Week-end :</strong> Fermé (sauf activité planifiée)"
   },
   "country": "Belgique",
   "postalCode": "1000",
-  "email": "info@vincvzw.be",
-  "organizationName": "Linc ASBL"
+  "email": "info@lincasbl.be",
+  "organizationName": "L!NC ASBL"
 }
