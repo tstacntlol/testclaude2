@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: claude/hobby-finder-website-YlMk0
+  branch: claude/check-netlify-french-repo-sRazt
 
 publish_mode: editorial_workflow
 
