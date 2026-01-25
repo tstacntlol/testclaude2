@@ -1,8 +1,8 @@
 # Logo Installation Instructions
 
-## Adding Your Linc vzw Logo
+## Adding Your Linc asbl Logo
 
-To add the Linc vzw logo to the navigation bar:
+To add the Linc asbl logo to the navigation bar:
 
 1. **Prepare your logo image:**
    - Save your logo as `linc-logo.png` (or `.jpg`, `.svg`)
@@ -15,12 +15,12 @@ To add the Linc vzw logo to the navigation bar:
 
 3. **If using a different filename or format:**
    - Edit `index.html`
-   - Find the line: `<img src="images/linc-logo.png" alt="Linc vzw logo" />`
+   - Find the line: `<img src="images/linc-logo.png" alt="Linc asbl logo" />`
    - Change `linc-logo.png` to your filename
 
 ## Current Logo Location
 
-The logo appears in the navigation bar between "Linc vzw" text and the navigation menu.
+The logo appears in the navigation bar between "Linc asbl" text and the navigation menu.
 
 The logo will:
 - Scale to 60px height on desktop

@@ -1,4 +1,4 @@
-# Linc vzw Website - Handleiding voor PDF Uploads
+# Linc asbl Website - Handleiding voor PDF Uploads
 
 ## Inhoudsopgave
 1. [Inloggen op het Admin Paneel](#inloggen)
@@ -32,7 +32,7 @@ Klik op "Forgot password?" en volg de instructies in de e-mail die u ontvangt.
 
 ### Overzicht
 U kunt PDF's uploaden voor drie secties van uw website:
-- **Programma** - Het programma van Linc vzw
+- **Programma** - Het programma van Linc asbl
 - **Vrijetijdstrajectbegeleiding** - Informatie over trajectbegeleiding
 - **Over Ons** - Algemene informatie over de organisatie
 
@@ -233,4 +233,4 @@ Als u problemen ondervindt of vragen heeft die niet in deze handleiding staan, n
 
 ---
 
-© 2025 Linc vzw - Website Handleiding
+© 2025 Linc asbl - Website Handleiding
