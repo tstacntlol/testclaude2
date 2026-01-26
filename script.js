@@ -304,7 +304,6 @@ class ModalPDFViewer {
 // Initialize PDF viewers
 const viewers = {
     programma: new PDFViewer('programma'),
-    traject: new PDFViewer('traject'),
     'over-ons': new PDFViewer('over-ons')
 };
 
@@ -313,7 +312,7 @@ const modalViewer = new ModalPDFViewer();
 
 // Load PDF configurations and initialize viewers
 async function initializePDFs() {
-    const sections = ['programma', 'traject', 'over-ons'];
+    const sections = ['programma', 'over-ons'];
 
     for (const section of sections) {
         try {
