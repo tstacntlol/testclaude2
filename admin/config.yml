@@ -22,14 +22,6 @@ collections:
           - {label: "PDF Bestand", name: "pdf", widget: "file", required: false, hint: "Upload een PDF bestand voor het programma"}
           - {label: "Actief", name: "active", widget: "boolean", default: true}
 
-      - name: "traject"
-        label: "Vrijetijdstrajectbegeleiding"
-        file: "content/pdfs/traject.json"
-        fields:
-          - {label: "Titel", name: "title", widget: "string", default: "Vrijetijdstrajectbegeleiding"}
-          - {label: "PDF Bestand", name: "pdf", widget: "file", required: false, hint: "Upload een PDF bestand voor vrijetijdstrajectbegeleiding"}
-          - {label: "Actief", name: "active", widget: "boolean", default: true}
-
       - name: "over_ons"
         label: "Over Ons"
         file: "content/pdfs/over-ons.json"
