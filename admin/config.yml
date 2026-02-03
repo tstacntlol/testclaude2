@@ -12,46 +12,46 @@ public_folder: "/pdfs"
 collections:
   # PDF Sections - One file per section
   - name: "pdf_sections"
-    label: "PDF Secties"
+    label: "Sections PDF"
     files:
       - name: "programma"
-        label: "Programma"
+        label: "Programme"
         file: "content/pdfs/programma.json"
         fields:
-          - {label: "Titel", name: "title", widget: "string", default: "Programma"}
-          - {label: "PDF Bestand", name: "pdf", widget: "file", required: false, hint: "Upload een PDF bestand voor het programma"}
-          - {label: "Actief", name: "active", widget: "boolean", default: true}
+          - {label: "Titre", name: "title", widget: "string", default: "Programma"}
+          - {label: "Fichier PDF", name: "pdf", widget: "file", required: false, hint: "Téléchargez un fichier PDF pour le programme"}
+          - {label: "Actif", name: "active", widget: "boolean", default: true}
 
       - name: "over_ons"
-        label: "Over Ons"
+        label: "À propos"
         file: "content/pdfs/over-ons.json"
         fields:
-          - {label: "Titel", name: "title", widget: "string", default: "Over Ons"}
-          - {label: "PDF Bestand", name: "pdf", widget: "file", required: false, hint: "Upload een PDF bestand voor Over Ons"}
-          - {label: "Actief", name: "active", widget: "boolean", default: true}
+          - {label: "Titre", name: "title", widget: "string", default: "Over Ons"}
+          - {label: "Fichier PDF", name: "pdf", widget: "file", required: false, hint: "Téléchargez un fichier PDF pour À propos"}
+          - {label: "Actif", name: "active", widget: "boolean", default: true}
 
   # Site Settings
   - name: "settings"
-    label: "Website Instellingen"
+    label: "Paramètres du site"
     files:
       - name: "contact"
-        label: "Contact Informatie"
+        label: "Informations de contact"
         file: "content/settings/contact.json"
         fields:
-          - {label: "Organisatie Naam", name: "organizationName", widget: "string", default: "L!NC ASBL"}
+          - {label: "Nom de l'organisation", name: "organizationName", widget: "string", default: "L!NC ASBL"}
           - {label: "Email", name: "email", widget: "string"}
-          - {label: "Telefoon", name: "phone", widget: "string"}
-          - {label: "Adres - Straat", name: "street", widget: "string"}
-          - {label: "Adres - Stad", name: "city", widget: "string"}
-          - {label: "Adres - Postcode", name: "postalCode", widget: "string"}
-          - {label: "Adres - Land", name: "country", widget: "string", default: "België"}
-          - label: "Openingsuren"
+          - {label: "Téléphone", name: "phone", widget: "string"}
+          - {label: "Adresse - Rue", name: "street", widget: "string"}
+          - {label: "Adresse - Ville", name: "city", widget: "string"}
+          - {label: "Adresse - Code postal", name: "postalCode", widget: "string"}
+          - {label: "Adresse - Pays", name: "country", widget: "string", default: "Belgique"}
+          - label: "Heures d'ouverture"
             name: "hours"
             widget: "object"
             fields:
-              - {label: "Weekdagen", name: "weekdays", widget: "string"}
-              - {label: "Weekend", name: "weekend", widget: "string"}
-          - label: "Social Media"
+              - {label: "Jours de semaine", name: "weekdays", widget: "string"}
+              - {label: "Week-end", name: "weekend", widget: "string"}
+          - label: "Réseaux sociaux"
             name: "social"
             widget: "object"
             fields:
