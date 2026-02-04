@@ -3,6 +3,7 @@ backend:
   branch: claude/check-netlify-french-repo-sRazt
 
 publish_mode: editorial_workflow
+locale: 'fr'
 
 # Media files will be stored in the repository
 media_folder: "pdfs"
